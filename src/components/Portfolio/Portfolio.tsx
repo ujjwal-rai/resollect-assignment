@@ -299,13 +299,178 @@ const Portfolio = () => {
       sanctionAmount: 500000,
       region: 'South',
       status: 'Pre Sarfeasi'
+    },
+    // Additional loans with various statuses
+    {
+      loanNo: 'L34P7890',
+      loanType: 'Home Loan',
+      borrower: 'Arjun Reddy',
+      borrowerAddress: '45 Lake Garden, Hyderabad-500032',
+      coBorrowerName: 'Nandini Reddy',
+      coBorrowerAddress: '45 Lake Garden, Hyderabad-500032',
+      currentDPD: 95,
+      sanctionAmount: 3800000,
+      region: 'South',
+      status: 'Pre Sarfeasi'
+    },
+    {
+      loanNo: 'L35Q9012',
+      loanType: 'Business Loan',
+      borrower: 'Amit Shah',
+      borrowerAddress: '78 Commercial Street, Surat-395003',
+      coBorrowerName: 'Priti Shah',
+      coBorrowerAddress: '78 Commercial Street, Surat-395003',
+      currentDPD: 110,
+      sanctionAmount: 5500000,
+      region: 'West',
+      status: 'NPA'
+    },
+    {
+      loanNo: 'L36R2345',
+      loanType: 'Car Loan',
+      borrower: 'Manish Joshi',
+      borrowerAddress: '23 Patel Nagar, Lucknow-226001',
+      coBorrowerName: 'Sunita Joshi',
+      coBorrowerAddress: '23 Patel Nagar, Lucknow-226001',
+      currentDPD: 80,
+      sanctionAmount: 900000,
+      region: 'North',
+      status: 'NPA'
+    },
+    {
+      loanNo: 'L37S4567',
+      loanType: 'Personal Loan',
+      borrower: 'Kartik Sharma',
+      borrowerAddress: '12 Civil Lines, Jaipur-302006',
+      coBorrowerName: '',
+      coBorrowerAddress: '',
+      currentDPD: 65,
+      sanctionAmount: 600000,
+      region: 'North',
+      status: 'Responses'
+    },
+    {
+      loanNo: 'L38T6789',
+      loanType: 'Home Loan',
+      borrower: 'Divya Gupta',
+      borrowerAddress: '56 Gandhi Colony, Bhopal-462001',
+      coBorrowerName: 'Rajiv Gupta',
+      coBorrowerAddress: '56 Gandhi Colony, Bhopal-462001',
+      currentDPD: 130,
+      sanctionAmount: 4800000,
+      region: 'Central',
+      status: 'Symbolic Possession'
+    },
+    {
+      loanNo: 'L39U8901',
+      loanType: 'Business Loan',
+      borrower: 'Ramesh Patel',
+      borrowerAddress: '89 Industrial Area, Vadodara-390007',
+      coBorrowerName: 'Sanjay Patel',
+      coBorrowerAddress: '89 Industrial Area, Vadodara-390007',
+      currentDPD: 150,
+      sanctionAmount: 7500000,
+      region: 'West',
+      status: 'Symbolic Possession'
+    },
+    {
+      loanNo: 'L40V1234',
+      loanType: 'Education Loan',
+      borrower: 'Neha Singh',
+      borrowerAddress: '34 College Road, Kanpur-208001',
+      coBorrowerName: 'Mohan Singh',
+      coBorrowerAddress: '34 College Road, Kanpur-208001',
+      currentDPD: 85,
+      sanctionAmount: 1200000,
+      region: 'North',
+      status: 'DM Order'
+    },
+    {
+      loanNo: 'L41W3456',
+      loanType: 'Home Loan',
+      borrower: 'Gopal Verma',
+      borrowerAddress: '23 Jubilee Hills, Hyderabad-500033',
+      coBorrowerName: 'Lata Verma',
+      coBorrowerAddress: '23 Jubilee Hills, Hyderabad-500033',
+      currentDPD: 180,
+      sanctionAmount: 6300000,
+      region: 'South',
+      status: 'DM Order'
+    },
+    {
+      loanNo: 'L42X5678',
+      loanType: 'Business Loan',
+      borrower: 'Ramesh Sharma',
+      borrowerAddress: '45 MG Road, Pune-411001',
+      coBorrowerName: 'Sunita Sharma',
+      coBorrowerAddress: '45 MG Road, Pune-411001',
+      currentDPD: 200,
+      sanctionAmount: 8500000,
+      region: 'West',
+      status: 'Physical Possession'
+    },
+    {
+      loanNo: 'L43Y7890',
+      loanType: 'Car Loan',
+      borrower: 'Rajat Singh',
+      borrowerAddress: '67 Cantt Area, Jalandhar-144005',
+      coBorrowerName: 'Anita Singh',
+      coBorrowerAddress: '67 Cantt Area, Jalandhar-144005',
+      currentDPD: 150,
+      sanctionAmount: 1500000,
+      region: 'North',
+      status: 'Physical Possession'
+    },
+    {
+      loanNo: 'L44Z9012',
+      loanType: 'Home Loan',
+      borrower: 'Vivek Mishra',
+      borrowerAddress: '78 Civil Lines, Allahabad-211001',
+      coBorrowerName: 'Sarita Mishra',
+      coBorrowerAddress: '78 Civil Lines, Allahabad-211001',
+      currentDPD: 250,
+      sanctionAmount: 5200000,
+      region: 'North',
+      status: 'Auctions'
+    },
+    {
+      loanNo: 'L45A1234',
+      loanType: 'Business Loan',
+      borrower: 'Suresh Jain',
+      borrowerAddress: '56 Commercial Complex, Indore-452001',
+      coBorrowerName: 'Rekha Jain',
+      coBorrowerAddress: '56 Commercial Complex, Indore-452001',
+      currentDPD: 280,
+      sanctionAmount: 9800000,
+      region: 'Central',
+      status: 'Auctions'
+    },
+    {
+      loanNo: 'L46B3456',
+      loanType: 'Personal Loan',
+      borrower: 'Ankit Khanna',
+      borrowerAddress: '23 Model Town, Chandigarh-160022',
+      coBorrowerName: '',
+      coBorrowerAddress: '',
+      currentDPD: 220,
+      sanctionAmount: 750000,
+      region: 'North',
+      status: 'Auctions'
     }
   ];
 
-  // Filter loans based on search query
-  const filteredLoans = loans.filter(loan => 
-    searchQuery ? loan.loanNo.toLowerCase().includes(searchQuery.toLowerCase()) : true
-  );
+  // Filter loans based on search query and selected tab
+  const filteredLoans = loans.filter(loan => {
+    // First filter by search query if any
+    const matchesSearch = searchQuery ? 
+      loan.loanNo.toLowerCase().includes(searchQuery.toLowerCase()) : true;
+    
+    // Then filter by selected tab
+    const matchesTab = selectedTab === 'All' ? 
+      true : loan.status === selectedTab;
+    
+    return matchesSearch && matchesTab;
+  });
 
   // Get only visible columns
   const visibleColumns = columns.filter(column => column.visible);
@@ -313,6 +478,11 @@ const Portfolio = () => {
   // Handle search input change
   const handleSearchChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     setSearchQuery(event.target.value);
+  };
+
+  // Count loans by status for tab badges
+  const getLoanCountByStatus = (status: string) => {
+    return loans.filter(loan => status === 'All' ? true : loan.status === status).length;
   };
 
   return (
@@ -325,14 +495,14 @@ const Portfolio = () => {
           scrollButtons="auto"
           sx={{ px: 0, '& .MuiTab-root': { textTransform: 'uppercase' } }}
         >
-          <Tab label="ALL" value="All" />
-          <Tab label="PRE SARFEASI" value="Pre Sarfeasi" />
-          <Tab label="NPA" value="NPA" />
-          <Tab label="RESPONSES" value="Responses" />
-          <Tab label="SYMBOLIC POSSESSION" value="Symbolic Possession" />
-          <Tab label="DM ORDER" value="DM Order" />
-          <Tab label="PHYSICAL POSSESSION" value="Physical Possessions" />
-          <Tab label="AUCTIONS" value="Auctions" />
+          <Tab label={`ALL (${loans.length})`} value="All" />
+          <Tab label={`PRE SARFEASI (${getLoanCountByStatus('Pre Sarfeasi')})`} value="Pre Sarfeasi" />
+          <Tab label={`NPA (${getLoanCountByStatus('NPA')})`} value="NPA" />
+          <Tab label={`RESPONSES (${getLoanCountByStatus('Responses')})`} value="Responses" />
+          <Tab label={`SYMBOLIC POSSESSION (${getLoanCountByStatus('Symbolic Possession')})`} value="Symbolic Possession" />
+          <Tab label={`DM ORDER (${getLoanCountByStatus('DM Order')})`} value="DM Order" />
+          <Tab label={`PHYSICAL POSSESSION (${getLoanCountByStatus('Physical Possession')})`} value="Physical Possession" />
+          <Tab label={`AUCTIONS (${getLoanCountByStatus('Auctions')})`} value="Auctions" />
         </Tabs>
       </TabsContainer>
 

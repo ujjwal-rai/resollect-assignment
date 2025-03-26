@@ -11,7 +11,7 @@ export interface LoanData {
   status: string;
 }
 
-export type TabType = 'All' | 'Pre Sarfeasi' | 'NPA' | '13(2) Responses' | 'Symbolic Possession' | 'DM Order' | 'Physical Possessions' | 'Auctions';
+export type TabType = 'All' | 'Pre Sarfeasi' | 'NPA' | 'Responses' | 'Symbolic Possession' | 'DM Order' | 'Physical Possession' | 'Auctions';
 
 export interface DocumentUploadData {
   documentName: string;
