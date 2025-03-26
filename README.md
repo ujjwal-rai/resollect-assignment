@@ -3,6 +3,9 @@
 ## Overview
 Resollect is a comprehensive loan management and portfolio system designed for financial institutions to track, manage, and process loans efficiently. The system provides a modern UI with responsive design that works seamlessly across desktop and mobile devices.
 
+## Live Demo
+The application is hosted on Vercel and can be accessed at: [https://resollect-assignment-gilt.vercel.app/](https://resollect-assignment-gilt.vercel.app/)
+
 ## Technology Stack
 
 ### Core Technologies
