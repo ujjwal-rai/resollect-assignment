@@ -35,24 +35,20 @@ import { LoanData, TabType } from '../../types/portfolio';
 import DocumentUpload from '../Upload/DocumentUpload';
 
 const StyledTableContainer = styled(TableContainer)({
-  '& .MuiTableCell-head': {
-    backgroundColor: '#f5f5f5',
-    fontWeight: 'bold',
-    padding: '12px 16px',
-  },
-  '& .MuiTableCell-body': {
-    padding: '12px 16px',
-    borderBottom: '1px solid #e0e0e0',
-  },
-  '& .MuiTableRow-root:hover': {
-    backgroundColor: '#f5f5f5',
-  },
+  maxHeight: 'calc(100vh - 300px)',
+  overflowY: 'auto',
   '@media (max-width: 880px)': {
-    '& .MuiTableCell-head, & .MuiTableCell-body': {
-      padding: '8px 12px',
-      fontSize: '0.8rem',
-    },
+    '& table': {
+      tableLayout: 'auto',
+      minWidth: '800px',
+    }
   },
+  '@media (min-width: 881px)': {
+    '& table': {
+      tableLayout: 'fixed',
+      width: '100%',
+    }
+  }
 });
 
 const PortfolioHeader = styled(Box)({
@@ -141,6 +137,10 @@ const Portfolio = () => {
     { id: 'borrowerAddress', label: 'Borrower Address', visible: true },
     { id: 'coBorrowerName', label: 'Co Borrower Name', visible: true },
     { id: 'coBorrowerAddress', label: 'Co Borrower Address', visible: true },
+    { id: 'currentDPD', label: 'Current DPD', visible: true },
+    { id: 'sanctionAmount', label: 'Sanction Amount', visible: true },
+    { id: 'region', label: 'Region', visible: true },
+    { id: 'status', label: 'Status', visible: true },
     { id: 'currentDPD', label: 'Current DPD', visible: true },
     { id: 'sanctionAmount', label: 'Sanction Amount', visible: true },
     { id: 'region', label: 'Region', visible: true },
@@ -491,8 +491,8 @@ const Portfolio = () => {
         <Tabs
           value={selectedTab}
           onChange={handleTabChange}
-          variant="scrollable"
-          scrollButtons="auto"
+          // variant="scrollable"
+          // scrollButtons="auto"
           sx={{ px: 0, '& .MuiTab-root': { textTransform: 'uppercase' } }}
         >
           <Tab label={`ALL (${loans.length})`} value="All" />
@@ -673,15 +673,7 @@ const Portfolio = () => {
         </Typography>
       </Box>
 
-      <StyledTableContainer sx={{ 
-        overflowX: 'auto',
-        '@media (max-width: 880px)': {
-          '& table': {
-            tableLayout: 'auto',
-            minWidth: '800px',
-          }
-        }
-      }}>
+      <StyledTableContainer>
         <Table>
           <TableHead>
             <TableRow>
